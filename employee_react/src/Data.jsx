@@ -1,4 +1,4 @@
-const peopleList = [
+const reviews = [
     {
         id: 1,
         firstName: "Terry",
@@ -11,7 +11,7 @@ const peopleList = [
         "username": "atuny0",
         "password": "9uQFF1Lh",
         "birthDate": "2000-12-25",
-        "image": "https://robohash.org/hicveldicta.png",
+        image: "https://robohash.org/hicveldicta.png",
         "bloodGroup": "A−",
         "height": 189,
         "weight": 75.4,
@@ -72,7 +72,7 @@ const peopleList = [
         "username": "hbingley1",
         "password": "CQutx25i8r",
         "birthDate": "2003-08-02",
-        "image": "https://robohash.org/doloremquesintcorrupti.png",
+        image: "https://robohash.org/doloremquesintcorrupti.png",
         "bloodGroup": "O+",
         "height": 187,
         "weight": 74,
@@ -133,7 +133,7 @@ const peopleList = [
         "username": "rshawe2",
         "password": "OWsTbMUgFc",
         "birthDate": "1992-12-30",
-        "image": "https://robohash.org/consequunturautconsequatur.png",
+        image: "https://robohash.org/consequunturautconsequatur.png",
         "bloodGroup": "A−",
         "height": 200,
         "weight": 105.3,
@@ -194,7 +194,7 @@ const peopleList = [
         "username": "yraigatt3",
         "password": "sRQxjPfdS",
         "birthDate": "1969-01-16",
-        "image": "https://robohash.org/facilisdignissimosdolore.png",
+        image: "https://robohash.org/facilisdignissimosdolore.png",
         "bloodGroup": "B+",
         "height": 157,
         "weight": 95.9,
@@ -255,7 +255,7 @@ const peopleList = [
         "username": "kmeus4",
         "password": "aUTdmmmbH",
         "birthDate": "1968-11-03",
-        "image": "https://robohash.org/adverovelit.png",
+        image: "https://robohash.org/adverovelit.png",
         "bloodGroup": "O+",
         "height": 188,
         "weight": 106.3,
@@ -316,7 +316,7 @@ const peopleList = [
         "username": "jtreleven5",
         "password": "zY1nE46Zm",
         "birthDate": "1969-07-21",
-        "image": "https://robohash.org/laboriosamfacilisrem.png",
+        image: "https://robohash.org/laboriosamfacilisrem.png",
         "bloodGroup": "A+",
         "height": 149,
         "weight": 105.7,
@@ -377,7 +377,7 @@ const peopleList = [
         "username": "dpettegre6",
         "password": "YVmhktgYVS",
         "birthDate": "1982-02-21",
-        "image": "https://robohash.org/cupiditatererumquos.png",
+        image: "https://robohash.org/cupiditatererumquos.png",
         "bloodGroup": "B−",
         "height": 172,
         "weight": 78.1,
@@ -427,5 +427,5 @@ const peopleList = [
         "userAgent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU) AppleWebKit/533.18.1 (KHTML, like Gecko) Version/5.0.2 Safari/533.18.5"
         }
 ]
-export default peopleList
+export default reviews;
 ;

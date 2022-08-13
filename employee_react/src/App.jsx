@@ -1,31 +1,27 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import peopleList from './Data.jsx'
-
+import Review from './Review'
 
 
 function App() {
-  const [people, setPeople] = useState(peopleList);
-  const [index, setIndex] = useState(0);
-  
 
-  const renderList = peopleList.map((person) => 
-  <li key={person.id}>
-  {person.firstName} - {person.age} years old
-</li>
-                             );
 
-    // Generate JSX code for Display each item
-    // const renderList = peopleList.map(("id", "firstName") => 
-    // <div key={"id"}>{"firstName"}</div>
+
+  // Generate JSX code for Display each item
+  // const renderList = peopleList.map(("id", "firstName") => 
+  // <div key={"id"}>{"firstName"}</div>
   // );
 
   return (
-      <section >
-         <div>The List contains:</div>
-        {renderList}
+    <main className='bg-gradient-to-t'>
+      <section className="container">
+        <div className='underline'>
+          <h1>Meet Our Staff</h1>
+          <Review />
+        </div>
       </section>
+    </main>
 
 
   )
